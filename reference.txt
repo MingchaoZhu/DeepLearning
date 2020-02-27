@@ -1,0 +1,53 @@
+**参考文献**:
+
+- 全局参考
+  - https://github.com/exacity/deeplearningbook-chinese/
+
+- 线性代数
+  - https://github.com/npetrakis/YearOfML
+
+- 概率与信息论
+  - https://github.com/akhilvasvani/Probability-and-Information-Theory
+  - https://docs.scipy.org/doc/scipy/reference/stats.html
+  - https://www.joinquant.com/view/community/detail/be3d8bc42275ea491897ac13fbf5838f
+  - https://my.oschina.net/dillan/blog/134011
+  
+- 数值计算
+
+- 机器学习基础
+  - 《统计学习方法》
+  - 《机器学习》
+  - https://github.com/paruby/ml-basics
+  - https://github.com/akhilvasvani/machine-learning-basics
+  - https://blog.csdn.net/ajianyingxiaoqinghan/article/details/72897399
+
+- 深度前馈网络
+  - https://peterroelants.github.io/posts/cross-entropy-logistic/
+  - https://blog.csdn.net/weixin_36586536/article/details/80468426
+  - https://github.com/yg19930918/deep-learning-from-scratch-master
+  - https://www.cnblogs.com/34fj/p/9036369.html
+  - https://github.com/peterroelants/peterroelants.github.io
+
+- 深度学习中的正则化
+  - https://zhuanlan.zhihu.com/p/35893078
+  - https://www.jiqizhixin.com/articles/2017-06-23-5
+  - https://www.zybuluo.com/songying/note/1400484
+  - https://zhuanlan.zhihu.com/p/37120298
+  - https://kevinzakka.github.io/2016/09/14/batch_normalization/
+
+- 深度模型中的优化
+  - https://zhuanlan.zhihu.com/p/32626442
+  - https://github.com/exacity/deeplearningbook-chinese
+  - http://cthorey.github.io./backpropagation/
+  - http://www.ludoart.cn/2019/02/22/Optimization-Methods/
+  
+- 卷积神经网络
+  - https://www.slideshare.net/kuwajima/cnnbp
+  - https://github.com/exacity/simplified-deeplearning
+  - https://github.com/yg19930918/deep-learning-from-scratch-master
+  - https://adventuresinmachinelearning.com/keras-tutorial-cnn-11-lines/
+  - https://zhangting2020.github.io/2018/05/30/Transform-Invariance/
+  - https://zh.gluon.ai/chapter_convolutional-neural-networks/lenet.html
+  - https://zhuanlan.zhihu.com/p/32702031
+  - https://blog.csdn.net/marsjhao/article/details/73088850
+ 
