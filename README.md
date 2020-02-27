@@ -4,7 +4,7 @@
 
 <img src="./docs/cover.jpg" width="400" height="600" alt="深度学习封面" align=center>
 
-可以下载《深度学习》的中文版[pdf]()和英文版[pdf]()直接阅读。
+可以下载《深度学习》的中文版[pdf](https://github.com/MingchaoZhu/DeepLearning/blob/master/DL%E4%B8%AD%E6%96%87.pdf)和英文版[pdf](https://github.com/MingchaoZhu/DeepLearning/blob/master/DL%E8%8B%B1%E6%96%87.pdf)直接阅读。
 
 ---
 
@@ -17,14 +17,14 @@
 | 中文章节 | 英文章节 | 下载 |
 | ------------ | ------------ | ------------ |
 | 第一章 前言 | 1 Introduction |  |
-| 第二章 线性代数 | 2 Linear Algebra | [pdf]() |
-| 第三章 概率与信息论                 | 3 Probability and Information Theory | [pdf]() |
-| 第四章 数值计算                     | 4 Numerical Computation | [pdf]() |
-| 第五章 机器学习基础                 | 5 Machine Learning Basics | [pdf]() |
-| 第六章 深度前馈网络                 | 6 Deep Feedforward Networks | [pdf]() |
-| 第七章 深度学习中的正则化           | 7 Regularization for Deep Learning | [pdf]() |
-| 第八章 深度模型中的优化 | 8 Optimization for Training Deep Models | [pdf]() |
-| 第九章 卷积网络 | 9 Convolutional Networks | [pdf]() |
+| 第二章 线性代数 | 2 Linear Algebra | [pdf](https://github.com/MingchaoZhu/DeepLearning/blob/master/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0.pdf) |
+| 第三章 概率与信息论                 | 3 Probability and Information Theory | [pdf](https://github.com/MingchaoZhu/DeepLearning/blob/master/%E6%A6%82%E7%8E%87%E4%B8%8E%E4%BF%A1%E6%81%AF%E8%AE%BA.pdf) |
+| 第四章 数值计算                     | 4 Numerical Computation | [pdf](https://github.com/MingchaoZhu/DeepLearning/blob/master/%E6%95%B0%E5%80%BC%E8%AE%A1%E7%AE%97.pdf) |
+| 第五章 机器学习基础                 | 5 Machine Learning Basics | [pdf](https://github.com/MingchaoZhu/DeepLearning/blob/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80.pdf) |
+| 第六章 深度前馈网络                 | 6 Deep Feedforward Networks | [pdf](https://github.com/MingchaoZhu/DeepLearning/blob/master/%E6%B7%B1%E5%BA%A6%E5%89%8D%E9%A6%88%E7%BD%91%E7%BB%9C.pdf) |
+| 第七章 深度学习中的正则化           | 7 Regularization for Deep Learning | [pdf](https://github.com/MingchaoZhu/DeepLearning/blob/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E6%AD%A3%E5%88%99%E5%8C%96.pdf) |
+| 第八章 深度模型中的优化 | 8 Optimization for Training Deep Models | [pdf](https://github.com/MingchaoZhu/DeepLearning/blob/master/%E6%B7%B1%E5%BA%A6%E6%A8%A1%E5%9E%8B%E4%B8%AD%E7%9A%84%E4%BC%98%E5%8C%96.pdf) |
+| 第九章 卷积网络 | 9 Convolutional Networks | [pdf](https://github.com/MingchaoZhu/DeepLearning/blob/master/%E5%8D%B7%E7%A7%AF%E7%BD%91%E7%BB%9C.pdf) |
 | 第十章 序列建模：循环和递归网络 | 10 Sequence Modeling: Recurrent and Recursive Nets |  |
 | 第十一章 实践方法论                 | 11 Practical Methodology |  |
 | 第十二章 应用 | 12 Applications |  |
