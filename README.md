@@ -14,7 +14,7 @@
 
 写的过程中参考了较多网上优秀的工作，所有参考资源保存在了`reference.txt`文件中。
 
-| 中文章节 | 英文章节 | 下载 |
+| 中文章节 | 英文章节 | 下载<br />(含推导与代码实现) |
 | ------------ | ------------ | ------------ |
 | 第一章 前言 | 1 Introduction |  |
 | 第二章 线性代数 | 2 Linear Algebra | [pdf](https://github.com/MingchaoZhu/DeepLearning/raw/master/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0.pdf) |
