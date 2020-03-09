@@ -39,3 +39,10 @@
 
 尚未上传的章节会在后续陆续上传。
 
+## 致谢
+
+非常感谢对本项目的认可和推广。
+
+在此感谢：
+
+- 专知：https://mp.weixin.qq.com/s/iU61gnyf-iCKuo5Vn4SzSg
