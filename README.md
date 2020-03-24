@@ -26,27 +26,27 @@
  	2. 第七章添加 L1 和 L2 正则化最优解的推导 (即 L1稀疏解的原理)。
  	3. 第七章添加集成学习方法的推导与代码实现，包括 Bagging (随机森林)、Boosting (Adaboost、GBDT、XGBoost)
  	4. 第八章添加牛顿法与拟牛顿法 (DFP、BFGS、L-BFGS) 的推导。
- 	5. 第十一章节添加高斯过程回归 (GPR) 与贝叶斯优化的推导与代码实现。
+ 	5. 第十一章节添加贝叶斯线性回归、高斯过程回归 (GPR) 与贝叶斯优化的推导与代码实现。
 
 后面每次的更新内容会统一放在 `update.txt` 文件中。
 
 # 章节目录与文件下载
 
-除了《深度学习》书中的概念点，**本项目也在各章节添加一些补充知识，例如第七章集成学习部分的 随机森林、Adaboost、GBDT、XGBoost 的原理剖析和代码实现等，又或者第十二章对当前一些主流方法的描述**。大的章节目录和 pdf 文件下载链接可以详见下表，而具体 pdf 文件中的实际目录请参考 `contents.txt`。
+除了《深度学习》书中的概念点，**本项目也在各章节添加一些补充知识，例如第七章集成学习部分的 随机森林、Adaboost、GBDT、XGBoost 的原理剖析和代码实现等，又或者第十二章对当前一些主流方法的描述**。大的章节目录和 pdf 文件下载链接可以详见下表，而具体 pdf 文件中的实际目录请参考 `contents.txt`。你可以在下面的 pdf 链接中下载对应章节，也可以在 [releases](https://github.com/MingchaoZhu/DeepLearning/releases) 界面直接下载所有文件。
 
 | 中文章节 | 英文章节 | 下载<br />(含推导与代码实现) |
 | ------------ | ------------ | ------------ |
 | 第一章 前言 | 1 Introduction |  |
-| 第二章 线性代数 | 2 Linear Algebra | [pdf](https://github.com/MingchaoZhu/DeepLearning/raw/master/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0.pdf) |
-| 第三章 概率与信息论                 | 3 Probability and Information Theory | [pdf](https://github.com/MingchaoZhu/DeepLearning/raw/master/%E6%A6%82%E7%8E%87%E4%B8%8E%E4%BF%A1%E6%81%AF%E8%AE%BA.pdf) |
-| 第四章 数值计算                     | 4 Numerical Computation | [pdf](https://github.com/MingchaoZhu/DeepLearning/raw/master/%E6%95%B0%E5%80%BC%E8%AE%A1%E7%AE%97.pdf) |
-| 第五章 机器学习基础                 | 5 Machine Learning Basics | [pdf](https://github.com/MingchaoZhu/DeepLearning/raw/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80.pdf) |
-| 第六章 深度前馈网络                 | 6 Deep Feedforward Networks | [pdf](https://github.com/MingchaoZhu/DeepLearning/raw/master/%E6%B7%B1%E5%BA%A6%E5%89%8D%E9%A6%88%E7%BD%91%E7%BB%9C.pdf) |
-| 第七章 深度学习中的正则化           | 7 Regularization for Deep Learning | [pdf](https://github.com/MingchaoZhu/DeepLearning/raw/master/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E6%AD%A3%E5%88%99%E5%8C%96.pdf) |
-| 第八章 深度模型中的优化 | 8 Optimization for Training Deep Models | [pdf](https://github.com/MingchaoZhu/DeepLearning/raw/master/%E6%B7%B1%E5%BA%A6%E6%A8%A1%E5%9E%8B%E4%B8%AD%E7%9A%84%E4%BC%98%E5%8C%96.pdf) |
-| 第九章 卷积网络 | 9 Convolutional Networks | [pdf](https://github.com/MingchaoZhu/DeepLearning/raw/master/%E5%8D%B7%E7%A7%AF%E7%BD%91%E7%BB%9C.pdf) |
+| 第二章 线性代数 | 2 Linear Algebra | [pdf](https://github.com/MingchaoZhu/DeepLearning/raw/master/2%20%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0.pdf) |
+| 第三章 概率与信息论                 | 3 Probability and Information Theory | [pdf](https://github.com/MingchaoZhu/DeepLearning/raw/master/3%20%E6%A6%82%E7%8E%87%E4%B8%8E%E4%BF%A1%E6%81%AF%E8%AE%BA.pdf) |
+| 第四章 数值计算                     | 4 Numerical Computation | [pdf](https://github.com/MingchaoZhu/DeepLearning/raw/master/4%20%E6%95%B0%E5%80%BC%E8%AE%A1%E7%AE%97.pdf) |
+| 第五章 机器学习基础                 | 5 Machine Learning Basics | [pdf](https://github.com/MingchaoZhu/DeepLearning/raw/master/5%20%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80.pdf) |
+| 第六章 深度前馈网络                 | 6 Deep Feedforward Networks | [pdf](https://github.com/MingchaoZhu/DeepLearning/raw/master/6%20%E6%B7%B1%E5%BA%A6%E5%89%8D%E9%A6%88%E7%BD%91%E7%BB%9C.pdf) |
+| 第七章 深度学习中的正则化           | 7 Regularization for Deep Learning | [pdf](https://github.com/MingchaoZhu/DeepLearning/raw/master/7%20%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%AD%E7%9A%84%E6%AD%A3%E5%88%99%E5%8C%96.pdf) |
+| 第八章 深度模型中的优化 | 8 Optimization for Training Deep Models | [pdf](https://github.com/MingchaoZhu/DeepLearning/raw/master/8%20%E6%B7%B1%E5%BA%A6%E6%A8%A1%E5%9E%8B%E4%B8%AD%E7%9A%84%E4%BC%98%E5%8C%96.pdf) |
+| 第九章 卷积网络 | 9 Convolutional Networks | [pdf](https://github.com/MingchaoZhu/DeepLearning/raw/master/9%20%E5%8D%B7%E7%A7%AF%E7%BD%91%E7%BB%9C.pdf) |
 | 第十章 序列建模：循环和递归网络 | 10 Sequence Modeling: Recurrent and Recursive Nets |  |
-| 第十一章 实践方法论                 | 11 Practical Methodology |  |
+| 第十一章 实践方法论                 | 11 Practical Methodology | [pdf](https://github.com/MingchaoZhu/DeepLearning/raw/master/11%20%E5%AE%9E%E8%B7%B5%E6%96%B9%E6%B3%95%E8%AE%BA.pdf) |
 | 第十二章 应用 | 12 Applications |  |
 | 第十三章 线性因子模型 | 13 Linear Factor Models |  |
 | 第十四章 自编码器                   | 14 Autoencoders |  |
