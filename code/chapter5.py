@@ -1,5 +1,6 @@
 import numpy as np
 import cvxopt
+import math
 
 
 ########-----NaiveBayes------#########
@@ -56,6 +57,11 @@ class NaiveBayes():
     def predict(self, X):
         y_pred = [self._calculate_probabilities(sample) for sample in X]
         return y_pred
+    
+    def score(self, X, y):
+        y_pred = self.predict(X)
+        accuracy = np.sum(y == y_pred, axis=0) / len(y)
+        return accuracy
 
 
 ########-----LogisticRegression------#########
@@ -88,6 +94,11 @@ class LogisticRegression():
         y_pred = self.sigmoid(X.dot(self.param))
         return y_pred
 
+    def score(self, X, y):
+        y_pred = self.predict(X)
+        accuracy = np.sum(y == y_pred, axis=0) / len(y)
+        return accuracy
+    
 
 ########-----SupportVectorMachine------#########
 # 隐藏cvxopt输出
@@ -190,7 +201,12 @@ class SupportVectorMachine():
             y_pred.append(np.sign(prediction))
         return np.array(y_pred)
     
+    def score(self, X, y):
+        y_pred = self.predict(X)
+        accuracy = np.sum(y == y_pred, axis=0) / len(y)
+        return accuracy
 
+    
 ########-----KNN------#########
 class KNN():
     
@@ -235,7 +251,12 @@ class KNN():
             y_pred.append(np.sign(prediction))
         return np.array(y_pred)
 
+    def score(self, X, y):
+        y_pred = self.predict(X)
+        accuracy = np.sum(y == y_pred, axis=0) / len(y)
+        return accuracy
 
+    
 ########-----DecisionTree------#########
 class DecisionNode():
 
@@ -366,6 +387,11 @@ class DecisionTree(object):
         y_pred = [self.predict_value(sample) for sample in X]
         return y_pred
 
+    def score(self, X, y):
+        y_pred = self.predict(X)
+        accuracy = np.sum(y == y_pred, axis=0) / len(y)
+        return accuracy
+    
     def print_tree(self, tree=None, indent=" "):
         """
         输出树
@@ -394,10 +420,31 @@ def calculate_entropy(y):
     return entropy
 
 
+def calculate_gini(y):
+    unique_labels = np.unique(y)
+    var = 0
+    for label in unique_labels:
+        count = len(y[y == label])
+        p = count / len(y)
+        var += p ** 2
+    return 1 - var
+
+
 class ClassificationTree(DecisionTree):
     """
-    分类树，在决策书节点选择计算信息增益，在叶子节点选择多数表决
+    分类树，在决策书节点选择计算信息增益/基尼指数，在叶子节点选择多数表决。
     """
+    def _calculate_gini_index(self, y, y1, y2):
+        """
+        计算基尼指数
+        """
+        p = len(y1) / len(y)
+        gini = calculate_gini(y)
+        gini_index = gini - p * \
+            calculate_gini(y1) - (1 - p) * \
+            calculate_gini(y2)
+        return gini_index
+    
     
     def _calculate_information_gain(self, y, y1, y2):
         """
@@ -408,7 +455,6 @@ class ClassificationTree(DecisionTree):
         info_gain = entropy - p * \
             calculate_entropy(y1) - (1 - p) * \
             calculate_entropy(y2)
-
         return info_gain
 
     def _majority_vote(self, y):
@@ -425,40 +471,58 @@ class ClassificationTree(DecisionTree):
         return most_common
 
     def fit(self, X, y):
-        self._impurity_calculation = self._calculate_information_gain
+        self._impurity_calculation = self._calculate_gini_index
         self._leaf_value_calculation = self._majority_vote
         super(ClassificationTree, self).fit(X, y)
 
-        
-def calculate_variance(X):
-    mean = np.ones(np.shape(X)) * X.mean(0)
-    n_samples = np.shape(X)[0]
-    variance = (1 / n_samples) * np.diag((X - mean).T.dot(X - mean))
+
+def calculate_mse(y):
+    return np.mean((y - np.mean(y)) ** 2)
+
+
+def calculate_variance(y):
+    n_samples = np.shape(y)[0]
+    variance = (1 / n_samples) * np.diag((y - np.mean(y)).T.dot(y - np.mean(y)))
     return variance
 
 
 class RegressionTree(DecisionTree):
     """
-    回归树，在决策书节点选择计算方差降低，在叶子节点选择均值
+    回归树，在决策书节点选择计算MSE/方差降低，在叶子节点选择均值。
     """
+    def _calculate_mse(self, y, y1, y2):
+        """
+        计算MSE降低
+        """
+        mse_tot = calculate_mse(y)
+        mse_1 = calculate_mse(y1)
+        mse_2 = calculate_mse(y2)
+        frac_1 = len(y1) / len(y)
+        frac_2 = len(y2) / len(y)
+        mse_reduction = mse_tot - (frac_1 * mse_1 + frac_2 * mse_2)
+        return mse_reduction
     
     def _calculate_variance_reduction(self, y, y1, y2):
+        """
+        计算方差降低
+        """
         var_tot = calculate_variance(y)
         var_1 = calculate_variance(y1)
         var_2 = calculate_variance(y2)
         frac_1 = len(y1) / len(y)
         frac_2 = len(y2) / len(y)
-
         variance_reduction = var_tot - (frac_1 * var_1 + frac_2 * var_2)
-
         return sum(variance_reduction)
 
     def _mean_of_y(self, y):
+        """
+        计算均值
+        """
         value = np.mean(y, axis=0)
         return value if len(value) > 1 else value[0]
 
     def fit(self, X, y):
-        self._impurity_calculation = self._calculate_variance_reduction
+        self._impurity_calculation = self._calculate_mse
         self._leaf_value_calculation = self._mean_of_y
         super(RegressionTree, self).fit(X, y)
 

@@ -34,12 +34,20 @@
   - https://www.zybuluo.com/songying/note/1400484
   - https://zhuanlan.zhihu.com/p/37120298
   - https://kevinzakka.github.io/2016/09/14/batch_normalization/
+  - http://gitlinux.net/2018-10-29-xgboost/
+  - https://medium.com/swlh/boosting-and-bagging-explained-with-examples-5353a36eb78d
+  - http://www.ccs.neu.edu/home/vip/teach/MLcourse/4_boosting/slides/gradient_boosting.pdf
+  - https://blog.csdn.net/liangjun_feng/article/details/79603705
+  - https://blog.csdn.net/sinat_22594309/article/details/60957594
+  - https://www.zybuluo.com/yxd/note/611571
+  - http://freemind.pluskid.org/machine-learning/sparsity-and-some-basics-of-l1-regularization/#ed61992b37932e208ae114be75e42a3e6dc34cb3
 
 - 深度模型中的优化
   - https://zhuanlan.zhihu.com/p/32626442
   - https://github.com/exacity/deeplearningbook-chinese
   - http://cthorey.github.io./backpropagation/
   - http://www.ludoart.cn/2019/02/22/Optimization-Methods/
+  - https://blog.csdn.net/itplus/article/details/21897715
   
 - 卷积神经网络
   - https://www.slideshare.net/kuwajima/cnnbp
@@ -50,4 +58,14 @@
   - https://zh.gluon.ai/chapter_convolutional-neural-networks/lenet.html
   - https://zhuanlan.zhihu.com/p/32702031
   - https://blog.csdn.net/marsjhao/article/details/73088850
+
+- 实践方法论
+  - https://github.com/masakazu-ishihata/BayesianOptimization
+  - https://github.com/bjzhao143/MLwithPython
+  - https://medium.com/inveterate-learner/deep-learning-book-chapter-11-c6ad1d3c3c08
+  - https://www.alexejgossmann.com/auc/
+  - https://machinelearningmastery.com/roc-curves-and-precision-recall-curves-for-imbalanced-classification/
+  - https://www.yuque.com/books/share/f4031f65-70c1-4909-ba01-c47c31398466/kqbfug
+  - http://bridg.land/posts/gaussian-processes-1
+  - https://zhuanlan.zhihu.com/p/76269142
  
