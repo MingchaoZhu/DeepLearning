@@ -4,7 +4,9 @@
 
 <img src="./docs/cover.jpg" width="200" height="300" alt="深度学习封面" align=center>
 
-可以下载《深度学习》的中文版 [pdf](https://github.com/MingchaoZhu/DeepLearning/raw/master/DL%E4%B8%AD%E6%96%87.pdf) 和英文版 [pdf](https://github.com/MingchaoZhu/DeepLearning/raw/master/DL%E8%8B%B1%E6%96%87.pdf) 直接阅读。
+可以下载《深度学习》的中文版 [pdf](https://github.com/MingchaoZhu/DeepLearning/releases/download/v0.0.1/DL_cn.pdf) 和英文版 [pdf](https://github.com/MingchaoZhu/DeepLearning/releases/download/v0.0.0/DL_en.pdf) 直接阅读。
+
+对于本项目的工作，你可以直接下载 [深度学习_原理与代码实现.pdf](https://github.com/MingchaoZhu/DeepLearning/releases/download/v1.1.1/default.pdf) (后面会对该书不断更新)
 
 ---
 
@@ -16,18 +18,19 @@
 
 # 作者留言
 
-最近收到了一些读者的催更邮件，感谢认可，但依旧想在此解释一下。每个章节的制作，从每一个概念的详细描述、原理推导、作图、代码实现到生成最终的 pdf 文件，需要时间。为了可以解释清楚，你在 pdf 文件中看到的所有的图几乎都是我自己画的。如果你在阅读过程中遇到有想要描述的概念点，可以发邮件告知我。这个项目的工作会一直更新完，不会咕。最后，如果你认可这份工作的话，希望可以 watch、star、fork 三连一下，或者在其他平台转发推广。非常感谢你的认可与推广，谢谢！			——朱明超
+最近收到了一些读者的催更邮件，感谢认可，但依旧想在此解释一下。每个章节的制作，从每一个概念的详细描述、原理推导、作图、代码实现到生成最终的 pdf 文件，需要时间。为了可以解释清楚，你在 pdf 文件中看到的所有的图几乎都是我自己画的。如果你在阅读过程中遇到有想要描述的概念点，请发邮件告知我。这个项目的工作会一直更新完，不会咕。最后，如果你认可这份工作的话，希望可以 watch、star、fork 三连一下，或者在其他平台转发推广。非常非常感谢你的认可与推广，谢谢！！			——朱明超
 
 # 更新说明
 
 2020/3/：
 
-	1. 修改第五章决策树部分，补充 ID3 和 CART 的原理，代码实现以 CART 为主。
- 	2. 第七章添加 L1 和 L2 正则化最优解的推导 (即 L1稀疏解的原理)。
- 	3. 第七章添加集成学习方法的推导与代码实现，包括 Bagging (随机森林)、Boosting (Adaboost、GBDT、XGBoost)
- 	4. 第八章添加牛顿法与拟牛顿法 (DFP、BFGS、L-BFGS) 的推导。
- 	5. 第十一章节添加贝叶斯线性回归、高斯过程回归 (GPR) 与贝叶斯优化的推导与代码实现。
-
+```python
+1. 修改第五章决策树部分，补充 ID3 和 CART 的原理，代码实现以 CART 为主。
+2. 第七章添加 L1 和 L2 正则化最优解的推导 (即 L1稀疏解的原理)。
+3. 第七章添加集成学习方法的推导与代码实现，包括 Bagging (随机森林)、Boosting (Adaboost、GBDT、XGBoost)
+4. 第八章添加牛顿法与拟牛顿法 (DFP、BFGS、L-BFGS) 的推导。
+5. 第十一章节添加贝叶斯线性回归、高斯过程回归 (GPR) 与贝叶斯优化的推导与代码实现。
+```
 后面每次的更新内容会统一放在 `update.txt` 文件中。
 
 # 章节目录与文件下载
@@ -59,10 +62,16 @@
 
 尚未上传的章节会在后续陆续上传。
 
-## 致谢
+# 致谢
 
 非常感谢对本项目的认可和推广。
 
 在此感谢：
 
 - 专知：https://mp.weixin.qq.com/s/iU61gnyf-iCKuo5Vn4SzSg
+
+# 赞助
+
+本项目书写耗费时间精力。如果本项目对你有帮助，可以请作者吃份冰淇淋：
+
+<img src="./docs/pay.jpg" width="200" height="200" alt="支付" align=center>
