@@ -2,7 +2,7 @@
 
 《**深度学习**》是深度学习领域唯一的综合性图书，全称也叫做**深度学习 AI圣经(Deep Learning)**，由三位全球知名专家IanGoodfellow、YoshuaBengio、AaronCourville编著，全书囊括了数学及相关概念的背景知识，包括线性代数、概率论、信息论、数值优化以及机器学习中的相关内容。同时，它还介绍了工业界中实践者用到的深度学习技术，包括深度前馈网络、正则化、优化算法、卷积网络、序列建模和实践方法等，并且调研了诸如自然语言处理、语音识别、计算机视觉、在线推荐系统、生物信息学以及视频游戏方面的应用。最后，深度学习全书还提供了一些研究方向，涵盖的理论主题包括线性因子模型、自编码器、表示学习、结构化概率模型、蒙特卡罗方法、配分函数、近似推断以及深度生成模型，适用于相关专业的大学生或研究生使用。
 
-<img src="./docs/cover.jpg" width="200" height="300" alt="深度学习封面" align=center>
+<img src="https://github.com/MingchaoZhu/DeepLearning/blob/master/docs/cover.jpg" width="200" height="300" alt="深度学习封面" align=center>
 
 可以下载《深度学习》的中文版 [pdf](https://github.com/MingchaoZhu/DeepLearning/releases/download/v0.0.1/DL_cn.pdf) 和英文版 [pdf](https://github.com/MingchaoZhu/DeepLearning/releases/download/v0.0.0/DL_en.pdf) 直接阅读。
 
